@@ -44,6 +44,28 @@ if not my_list:
     print("The list is empty.")
 
 
+#left shift of 5 by 2 = 20. Usally multiplies value with 2 power n
+
+#                              
+
+#                               8 4 2 1
+#                               =======
+#                               0 0 0 1 - 1
+#                               0 0 1 0 - 2
+#                               0 0 1 1 - 3
+#                               0 1 0 0 - 4
+#                               0 1 0 1 = 5
+#                               1010
+#                               10100
+
+# Right shift of 20 by 2 = 5. Usally divides value with 2 power n                           
+#                               16 8 4 2 1
+#                               ==========
+#                               1  0 1 0 0 - 20
+#                               0  1 0 1 0
+#                               0  0 1 0 1 - 5
+
+
 #Assignment operators
 a = 10
 a = a + 1
